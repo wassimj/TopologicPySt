@@ -9,7 +9,7 @@ else:
     os_name = 'linux'
 
 sitePackagesFolderName = os.path.join(os.path.dirname(os.path.realpath(__file__)), "bin", os_name)
-test1 = os.path.join(os.path.dirname(os.path.realpath(__file__)), "bin")
+test1 = os.path.dirname(os.path.realpath(__file__))
 print(os.listdir(test1))
 topologicFolderName = [filename for filename in os.listdir(sitePackagesFolderName) if filename.startswith("topologic")][0]
 topologicPath = os.path.join(sitePackagesFolderName, topologicFolderName)

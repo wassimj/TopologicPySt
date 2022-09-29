@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: topologicpy
+Version: 0.0.1
+Summary: Topologic
+Author-email: Wassim Jabi <wassim.jabi@gmail.com>
+Project-URL: Homepage, https://github.com/wassimj/TopologicPySt
+Project-URL: Bug Tracker, https://github.com/wassimj/TopologicPySt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TopologicPyST
+ Topologic python as an importable library for Streamlit
